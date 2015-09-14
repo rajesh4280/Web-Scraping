@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  get 'nokogiri/index'
- resources :nokogiri
+   root :to =>"nokogiri#index"
+   # root 'nokogiri/index'
+   resources :nokogiri
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
