@@ -19,7 +19,7 @@ class NokogiriController < ApplicationController
    c=  doc.css('span.jcn').collect {|node| node.text.strip}
    d=  doc.css('.jaid').collect {|node| node.text.strip}
     e=  doc.css('.jrcw').collect {|node| node.text.strip}
-     break if no==10
+     break if no==2
       no+=1
       puts "==========#{c}"
       c.each do |temp|
