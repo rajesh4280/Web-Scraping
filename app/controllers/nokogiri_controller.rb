@@ -43,10 +43,7 @@ class NokogiriController < ApplicationController
    
    respond_to do |format|
     format.html
-    format.csv { send_data @name.to_csv }
-     format.csv { send_data @address.to_csv }
-     format.csv { send_data @phone.to_csv }
-    format.xls
+    
     end
    
 # Define the css selectors to be used for extractions, most
