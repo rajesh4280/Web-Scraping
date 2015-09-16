@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'bootstrap-sass', '~> 3.2.0'
+gem 'puma'
 gem 'autoprefixer-rails'
  gem 'mysql', '~> 2.9.1'
   gem 'mysql2', '~> 0.3.13'
