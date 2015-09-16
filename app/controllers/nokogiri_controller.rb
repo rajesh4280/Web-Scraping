@@ -4,7 +4,6 @@ class NokogiriController < ApplicationController
     require 'open-uri'
     require 'nokogiri'
     no =1
-  
     @name = []
     @address=[]
     @phone =[]
